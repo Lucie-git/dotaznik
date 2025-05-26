@@ -1,4 +1,4 @@
-import { Question } from '../../components/Question';
+import { Question } from '../../components/Question/Question';
 import './style.css';
 
 export const HomePage = () => {
