@@ -3,8 +3,6 @@ import { Option } from '../Option/Option';
 import './style.css';
 import { useState } from 'react';
 
-// 5. V komponentě `Question` si vytvořte funkci `handleSelect`. Všem komponentám `Option` pak skrze prop `onSelected` tuto funkci předejte. Funkce `handleSelect` nechť nastaví stav `answered` na hodnotu `true`. Takto zajístíme, že kdykoliv uživatel klikne na nějakou možnost, stav se nám nastaví na `true` a tím se změní ikonka v těle otázky na fajfku.
-
 export const Question = ({ text }) => {
   const [answered, setAnswered] = useState(false);
 
